@@ -42,16 +42,20 @@
 .search-input{
     width: 276px;
     height:20px;
-    padding-top: 20px;
-    padding-bottom:10px;
+    background-image: url('../images/search-bar.png');
+    margin-top: 20px;
+    margin-bottom:10px;
     float: left;
 }
 
 .search-button{
-    width:53px;
+    background-image: url('../images/search-button.png') ;
+    width:40px;
     height:20px;
-    padding-top: 20px;
-    padding-bottom:10px;
+    padding-left: 6px;
+    padding-right: 7px;
+    margin-top: 20px;
+    margin-bottom:10px;
     float:right;
 }
 
@@ -101,14 +105,13 @@
     height: 40px;
 }
 
-.body{
+.main-body{
     height:667px;
 }
 
-.body .wrapper{
+.main-body .wrapper{
     width: 940px;
     margin:0 auto;
-    /* background-color: red; */
     height: 605px;
     padding-top: 31px;
     padding-bottom: 31px;
@@ -124,11 +127,12 @@
     float: left;
     width:194px;
     height: 605px;
+    background-color:yellow;
 }
 
 .ll-top{
     width: 194px;
-    height: 132px
+    height: 117px;
 
 }
 
@@ -141,13 +145,13 @@
 
 .llt-box{
     width: 194px;
-    height:89px;
+    height:74px;
     background-color:#f5f5f5;
 }
 
 .ll-bottom{
     width: 194px;
-    height:473px;
+    height:488px;
 }
 
 .llb-text{
@@ -159,7 +163,7 @@
 
 .llb-box{
     width: 194px;
-    height:430px;
+    height:445px;
     background-color:#f5f5f5;
 }
 
@@ -194,11 +198,23 @@
 }
 
 .tab-wrapper{
-    padding-top: 4px;
+    padding-top: 6px;
     height: 24px;
     width: 518px;
-    border-bottom: 4px solid #2fc1da;
+    border-bottom: 2px solid #2fc1da;
     /* background-color:red; */
+}
+
+.tab-left{
+    float: left;
+    width: 259px;
+    height:24px;
+}
+
+.tab-right{
+    float: right;
+    width: 259px;
+    height: 24px;
 }
 
 
@@ -300,14 +316,14 @@
 }
 
 .r-text{
-    width: 194px;
+    width: 176px;
     height: 43px;
     background-color:#2fc1da;
     line-height: 43px;
 }
 
 .r-box{
-    width: 194px;
+    width: 176px;
     height:562px;
     background-color:#f5f5f5;
 }
@@ -331,7 +347,7 @@
 }
 
 .copyright{
-    width: 100px;
+    width: 89px;
     height:45px;
     line-height:45px;
     float: right;
